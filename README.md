@@ -133,7 +133,7 @@ gcm.on('transmissionError', function (error, message, registrationId) {});
 Emmited when a registration id must be updated in the database.
 
 ```js
-gcm.on('updated', function (result, registrationId) {});
+gcm.on('updated', function (result, message, registrationId) {});
 ```
 
 ### Android Cloud to Device Messaging (C2DM)
